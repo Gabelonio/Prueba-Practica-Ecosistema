@@ -32,3 +32,7 @@ CREATE TABLE Chalecos (
 	serial INT PRIMARY KEY,
 	beneficiario_cedula INT REFERENCES Beneficiarios(cedula) ON DELETE CASCADE
 )
+
+-- Insertar usuario de prueba
+INSERT INTO Usuarios (nombreUsuario, contraseña) 
+VALUES ('gabriel123', 'clave_segura1');
