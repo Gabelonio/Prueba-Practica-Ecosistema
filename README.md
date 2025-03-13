@@ -50,7 +50,9 @@ A continuación se observan capturas de pantalla del procedimiento.
 ## Variables de entorno
 para el Frontend se usan las variables
 REACT_APP_API_BASE_URL='http://127.0.0.1:8000'
+
 para el Backend se usan las variables
+SECRET_KEY_DJANGO='secretounp'
 
 
 
