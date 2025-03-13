@@ -1,0 +1,38 @@
+:root {
+  --unp-color: #3366cc;
+  --unp-link: #4b4b4b;
+  --light-gray: #71717a;
+  --dark-gray: #37373b;
+  --soft-white: #dddfe6;
+  --white: #f5f5f5; 
+  --darker-gray-text: #353535; 
+  --dark-gray-text: #515157; 
+}
+body {
+  background-color: var(--white);
+  margin: 0;
+  font-family: "Poppins", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*LINKS*/
+a {
+  text-decoration: none; 
+  font-weight: 600;
+}
+
+/*BUTTONS*/
+button {
+  background-color: var(--unp-color);
+  color: var(--white);
+  border: none;
+  border-radius: 9px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+/*SEARCH*/
+.search-container {
+  display: none;
+}
